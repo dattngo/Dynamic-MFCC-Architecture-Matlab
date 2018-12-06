@@ -1,0 +1,159 @@
+                         Chronologic VCS (TM)
+          Version D-2010.06-SP1 -- Thu Sep 15 17:09:53 2016
+               Copyright (c) 1991-2010 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'adder24.v'
+Parsing design file 'adder8.v'
+Parsing design file 'add_fp_clk.v'
+Parsing design file 'add.v'
+Parsing design file 'amplitude_state_ctrl.v'
+Parsing design file 'amplitude.v'
+Parsing design file 'arrange.v'
+Parsing design file 'ceptrum_state_ctrl.v'
+Parsing design file 'ceptrum.v'
+Parsing design file 'change_addr_15bits.v'
+Parsing design file 'change_addr.v'
+Parsing design file 'cla_12bit.v'
+Parsing design file 'cla_14bit.v'
+Parsing design file 'cla_15bit.v'
+Parsing design file 'cla_6bit.v'
+Parsing design file 'cla_7bit.v'
+Parsing design file 'cla_8bit.v'
+Parsing design file 'control_floating_point.v'
+Parsing design file 'copy_energy_state_ctrl.v'
+Parsing design file 'copy_energy.v'
+Parsing design file 'counter_cep_7bit.v'
+Parsing design file 'counter_cep_in_delta_7bit.v'
+Parsing design file 'counter_cep_in_delta.v'
+Parsing design file 'counter_cep.v'
+Parsing design file 'counter_frame_delta_2nd.v'
+Parsing design file 'counter_frame_delta_7bit.v'
+Parsing design file 'counter_frame_delta.v'
+Parsing design file 'counter_frame.v'
+Parsing design file 'counter_loop_6bit.v'
+Parsing design file 'counter_loop_7bit.v'
+Parsing design file 'counter_loop_8bit.v'
+Parsing design file 'counter_loop_top_7bit.v'
+Parsing design file 'counter_loop_top.v'
+Parsing design file 'counter_loop.v'
+Parsing design file 'counter_top.v'
+Parsing design file 'counter.v'
+Parsing design file 'delta_2nd_state_ctrl.v'
+Parsing design file 'delta_2nd.v'
+Parsing design file 'delta_state_ctrl.v'
+Parsing design file 'delta.v'
+Parsing design file 'eight_mem_cof_ctrl.v'
+Parsing design file 'fft_core_control.v'
+Parsing design file 'fft_core.v'
+Parsing design file 'floating_point_adder.v'
+Parsing design file 'floating_point_multiple.v'
+Parsing design file 'four_mem_cof_ctrl.v'
+Parsing design file 'four_mem_result_ctrl.v'
+Parsing design file 'log_fp_clk.v'
+Parsing design file 'max_min_fp_clk.v'
+Parsing design file 'max_pair_compare.v'
+Parsing design file 'mel_state_ctrl.v'
+Parsing design file 'mel.v'
+Parsing design file 'mem_cepstral_cof.v'
+Parsing design file 'mem_ctrl.v'
+Parsing design file 'mem_exponent.v'
+Parsing design file 'mem_fft_ctrl.v'
+Parsing design file 'mem_input_data.v'
+Parsing design file 'mem_mantissa.v'
+Parsing design file 'mem_mel_cof_0.v'
+Parsing design file 'mem_mel_cof_1.v'
+Parsing design file 'mem_mel_cof_2.v'
+Parsing design file 'mem_mel_cof_3.v'
+Parsing design file 'mem_mel_cof_4.v'
+Parsing design file 'mem_mel_cof_5.v'
+Parsing design file 'mem_mel_cof_6.v'
+Parsing design file 'mem_mel_cof_7.v'
+Parsing design file 'memory.v'
+Parsing design file 'mem_w_image.v'
+Parsing design file 'mem_window_cof.v'
+Parsing design file 'mem_w_real.v'
+Parsing design file 'min_pair_compare.v'
+Parsing design file 'mul26.v'
+Parsing design file 'mul_fp_clk.v'
+Parsing design file 'network_control.v'
+Parsing design file 'one_mem_cof_ctrl.v'
+Parsing design file 'one_mem_data_ctrl.v'
+Parsing design file 'pre_emphasis.v'
+Parsing design file 'preem_state_ctrl.v'
+Parsing design file 'prepare.v'
+Parsing design file 'result_addr_decoder.v'
+Parsing design file 'top_ctrl.v'
+Parsing design file 'top_fft.v'
+Parsing design file 'top_state.v'
+Parsing design file 'top.v'
+Parsing design file 't_top.v'
+Parsing design file 'window_state_ctrl.v'
+Parsing design file 'window.v'
+Top Level Modules:
+       cla_14bit
+       cla_6bit
+       counter_cep_in_delta
+       counter_cep
+       counter_frame_delta
+       counter_frame
+       counter_loop_8bit
+       counter_loop_top
+       four_mem_cof_ctrl
+       t_top
+No TimeScale specified
+Starting vcs inline pass...
+54 modules and 0 UDP read.
+	However, due to incremental compilation, only 15 modules need to be compiled.
+recompiling module amplitude because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module cep because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module copy_energy because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module counter_cep_in_delta because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module counter_cep because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module counter_frame_delta because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module counter_loop_8bit because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module counter_loop_top because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module counter_top because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module counter because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module delta_2nd because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module delta because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module mel because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module top_ctrl because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module window because:
+	This module or some inlined child module(s) has/have been modified.
+All of 15 modules done
+ld -r -m elf_i386 -o pre_vcsobj_0_1.o --whole-archive pre_vcsobj_0_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386   _vcsobj_1_1.o  5NrI_d.o 5NrIB_d.o SIM_l.o    pre_vcsobj_0_1.o pre_vcsobj_1_1.o  rmapats_mop.o rmapats.o       /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/libvirsim.so /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/librterrorinf.so /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/libsnpsmalloc.so     /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/libvcsnew.so        /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/vcs_save_restore_new.o /home/quanghan/icdesign/synopsys_src/VCS_D-2010.06-SP1/linux/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2010
+Contains Synopsys proprietary information.
+Compiler version D-2010.06-SP1; Runtime version D-2010.06-SP1;  Sep 15 17:10 2016
+
+VCD+ Writer D-2010.06-SP1 Copyright (c) 1991-2010 by Synopsys Inc.
+$finish called from file "t_top.v", line 43.
+$finish at simulation time            450000032
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 450000032
+CPU Time:     13.900 seconds;       Data structure size:   1.4Mb
+Thu Sep 15 17:18:25 2016
+CPU time: 11.304 seconds to compile + .040 seconds to elab + .252 seconds to link + 497.630 seconds in simulation
